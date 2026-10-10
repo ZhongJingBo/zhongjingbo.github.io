@@ -1,11 +1,17 @@
 ---
 layout: post
-title: "我的第一篇博客"
+title: "Java jdk版本"
 date: 2026-10-10
 ---
 
-今天开始在 GitHub 写博客。
+# 查看当前 Java 运行时版本
+java -version
 
-## 为什么写博客
+# 查看 Java 编译器版本
+javac -version
 
-记录学习过程，分享解决问题的方法。
+# macOS：列出已安装的 JDK 及路径
+/usr/libexec/java_home -V
+
+# 查看 JAVA_HOME 配置
+echo "$JAVA_HOME"
